@@ -1,0 +1,26 @@
+{
+    "name": "poweron",
+    "displayName": "PowerOn",
+    "description": "Symitar PowerOn",
+    "version": "0.0.1",
+    "publisher": "",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "poweron",
+            "aliases": ["PowerOn", "repgen"],
+            "extensions": [".PRO",".repgen",".DEF",".poweron"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "poweron",
+            "scopeName": "source.poweron",
+            "path": "./syntaxes/poweron.tmLanguage.json"
+        }]
+    }
+}
