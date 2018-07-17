@@ -5,15 +5,15 @@ WORK IN PROGRESS
 
 ## Features
 
-# In Progress
-* Syntax Highlighting
+### In Progress
+- Syntax Highlighting
 
-# Planned
-* Todo
+### Planned
+- Todo
 
 ## Known Issues
 
-* Not Finished
+- Not Finished
 
 ## Release Notes
 
